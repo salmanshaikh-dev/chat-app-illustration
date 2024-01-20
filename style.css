@@ -1,16 +1,18 @@
 body {
+
+
     margin: 0;
     padding: 0;
-    background-color: hsl(0, 3%, 88%);
+    background-color: hsl(270, 20%, 96%);
     position: relative;
 
-    font-family: system-ui;
+    font-family: Rubik;
 }
 
 .div-purple {
     background: hsl(276, 100%, 81%);
     background: linear-gradient(0deg, hsl(264, 100%, 61%) 03%, hsl(293, 100%, 63%) 100%);
-    height: 42rem;
+    height: 43rem;
     width: 30rem;
     border-bottom-left-radius: 40rem;
     border-bottom-right-radius: 40rem;
@@ -20,12 +22,14 @@ body {
 .container-mobile {
     height: 33rem;
     width: 16rem;
-    background-color: rgb(248, 248, 248);
+    background-color: hsl(270, 20%, 96%);
     position: absolute;
     top: 6rem;
     left: 17rem;
 
     border-radius: 3rem;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
     border: 10px solid white;
 
     box-shadow: 2px 20px 12px lightgray;
@@ -90,7 +94,7 @@ body {
     flex-direction: column;
     align-items: start;
     justify-content: center;
-    
+
 
 }
 
@@ -104,14 +108,126 @@ body {
 .p-profileStatus {
     margin: 0;
     font-size: .6em;
-    color: rgb(222, 206, 226);
+    color: hsl(276, 100%, 81%);
     font-weight: 600;
 
 }
 
-.img-dotsMenu{
+.img-dotsMenu {
     vertical-align: middle;
     height: .8rem;
     width: .8rem;
     margin-left: 4.2rem;
+}
+
+.section-chat-container {
+    margin: 15px 10px;
+}
+
+.div-chat-left {
+    background-color: hsl(289, 28%, 92%);
+    width: 10rem;
+    border-radius: .7rem;
+}
+
+.p-chat-left {
+    color: hsl(276, 55%, 52%);
+    font-size: .6em;
+    padding: 5px 10px;
+    line-height: 1.3em;
+}
+
+.div-chat-three {
+    display: flex;
+    justify-content: end;
+    gap: .5rem;
+    margin-bottom: 10px;
+}
+
+.img-chat {
+    width: 2.5rem;
+    border-radius: .5rem;
+}
+
+.div-chat-four {
+    margin-left: 4.6rem;
+    display: flex;
+    justify-content: end;
+    background-color: white;
+    border-radius: .7rem;
+    border-bottom-right-radius: .2rem;
+    width: 10rem;
+    margin-bottom: 10px;
+}
+
+
+.p-chat-right {
+    font-size: .6em;
+    color: hsl(271, 15%, 43%);
+    margin: 0;
+    padding: 5px 10px;
+
+}
+
+.div-chat-five {
+    margin-left: 8.6rem;
+    display: flex;
+    justify-content: end;
+    background-color: white;
+    border-radius: .7rem;
+    border-bottom-right-radius: .2rem;
+    width: 6rem;
+    margin-top: 10px;
+}
+
+
+.circle {
+    width: .7rem;
+    height: .7rem;
+    border-radius: 1rem;
+    border: 1px solid rgb(223, 220, 220);
+    margin-left: 10px;
+   
+}
+.p-chat-right-gradiant{
+    font-size: .6em;
+    font-weight: 600;
+    color: rgb(226, 214, 197);
+}
+.p-price {
+    font-weight: 600;
+    color: white;
+    font-size: .9em;
+    margin-left: 35px;
+}
+.div-chat-left-gradiant {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: .5rem;
+    
+    margin-bottom: 10px;
+    width: 12rem;
+    border-radius: .9rem;
+    background: rgb(225, 66, 255);
+    background: linear-gradient(90deg, rgba(225, 66, 255, 1) 6%, rgba(145, 57, 255, 1) 64%);
+}
+
+.div-input-text{
+    margin-top: 15px;
+    
+}
+input {
+    border-radius: 20px;
+    border: none;
+    background-color: white;
+    padding: 10px 20px;
+    width: 12.1rem;
+    
+}
+
+input::placeholder {
+    font-size: .7em;
+    font-family: Rubik;
+    color: rgb(199, 199, 199);
 }
