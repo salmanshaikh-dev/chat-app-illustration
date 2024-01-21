@@ -14,93 +14,116 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
 
     <title>Frontend Mentor | git-salmanshaikh</title>
   </head>
   <body>
-    <div class="div-purple"></div>
-
-    <section class="container-mobile">
-      <div class="notch"></div>
-
-      <div class="top-background-container">
-        <div class="div-icon-profilepic">
-          <img class="img-arrow" src="images/arrow.png" alt="arrow" />
-          <img
-            class="img-profile"
-            src="images/avatar.jpg"
-            alt="profile photo"
-          />
-        </div>
-        <div class="div-profileName-status">
-          <p class="p-profileName">Samuel Green</p>
-          <p class="p-profileStatus">Available to Walk</p>
-        </div>
-        <div>
-          <img class="img-dotsMenu" src="images/dots.png" alt="icon menu" />
-        </div>
+    <div class="container-main">
+      <div class="left-section">
+        <div class="div-purple"></div>
+  
+        <section class="container-mobile">
+          <div class="notch"></div>
+    
+          <div class="top-background-container">
+            <div class="div-icon-profilepic">
+              <img class="img-arrow" src="images/arrow.png" alt="arrow" />
+              <img
+                class="img-profile"
+                src="images/avatar.jpg"
+                alt="profile photo"
+              />
+            </div>
+            <div class="div-profileName-status">
+              <p class="p-profileName">Samuel Green</p>
+              <p class="p-profileStatus">Available to Walk</p>
+            </div>
+            <div>
+              <img class="img-dotsMenu" src="images/dots.png" alt="icon menu" />
+            </div>
+          </div>
+    
+          <section class="section-chat-container">
+            <div class="div-chat-left div-chat-one">
+              <p class="p-chat-left">That sounds great. I’d be happy with that.</p>
+            </div>
+    
+            <div class=" div-chat-left div-chat-two">
+              <p class="p-chat-left">Could you send over some pictures of your dog, please?</p>
+            </div>
+    
+            <div class="div-chat-three">
+              <img class="img-chat" src="images/dog-image-1.jpg" alt="img">
+              <img class="img-chat" src="images/dog-image-2.jpg" alt="img">
+              <img class="img-chat" src="images/dog-image-3.jpg" alt="img">
+            </div>
+    
+            <div class="div-chat-four div-chat-right">
+              <p class="p-chat-right">
+                Here are a few
+                pictures. She’s a happy girl!
+              </p>
+            </div>
+    
+            <div class="div-chat-five div-chat-right">
+              <p class="p-chat-right">
+                Can you make it?
+              </p>
+            </div>
+    
+            <div class=" div-chat-left div-chat-six">
+              <p class="p-chat-left">She looks so happy! The time
+                we discussed works. How long shall I take her out for?</p>
+            </div>
+    
+            <div class="div-chat-seven div-chat-left-gradiant">
+              <div class="circle"></div>
+              <p class="p-chat-right-gradiant">30 minute walk</p>
+              <p class="p-price">$29</p>
+            </div>
+    
+            <div class="div-chat-seven div-chat-left-gradiant">
+              <div class="circle"></div>
+              <p class="p-chat-right-gradiant">1
+                hour walk</p>
+              <p class="p-price">$49</p>
+            </div>
+    
+            <div class="div-input-text">
+              <input type="text" placeholder="Type a message…">
+              <div class="black-circle">
+                <img class="img-arrow-input" src="images/arrow.png" alt="arrow">
+              </div>
+            </div>
+            
+          </section>
+        </section>
       </div>
-
-      <section class="section-chat-container">
-        <div class="div-chat-left div-chat-one">
-          <p class="p-chat-left">That sounds great. I’d be happy with that.</p>
-        </div>
-
-        <div class=" div-chat-left div-chat-two">
-          <p class="p-chat-left">Could you send over some pictures of your dog, please?</p>
-        </div>
-
-        <div class="div-chat-three">
-          <img class="img-chat" src="images/dog-image-1.jpg" alt="img">
-          <img class="img-chat" src="images/dog-image-2.jpg" alt="img">
-          <img class="img-chat" src="images/dog-image-3.jpg" alt="img">
-        </div>
-
-        <div class="div-chat-four div-chat-right">
-          <p class="p-chat-right">
-            Here are a few
-            pictures. She’s a happy girl!
+     
+      <div class="right-section">
+        <article>
+          <h1>
+            Simple booking
+          </h1>
+          <p class="p-article">
+            Stay in touch with our dog
+            walkers through the chat interface. This makes it easy to discuss
+            arrangements and make bookings. Once the walk has been completed you can
+            rate your walker and book again all through the chat.
           </p>
-        </div>
+        </article>
 
-        <div class="div-chat-five div-chat-right">
-          <p class="p-chat-right">
-            Can you make it?
-          </p>
-        </div>
-
-        <div class=" div-chat-left div-chat-six">
-          <p class="p-chat-left">She looks so happy! The time
-            we discussed works. How long shall I take her out for?</p>
-        </div>
-
-        <div class="div-chat-seven div-chat-left-gradiant">
-          <div class="circle"></div>
-          <p class="p-chat-right-gradiant">30 minute walk</p>
-          <p class="p-price">$29</p>
-        </div>
-
-        <div class="div-chat-seven div-chat-left-gradiant">
-          <div class="circle"></div>
-          <p class="p-chat-right-gradiant">1
-            hour walk</p>
-          <p class="p-price">$49</p>
-        </div>
-
-        <div class="div-input-text">
-          <input type="text" placeholder="Type a message…">
-        </div>
+        <div class="div-purple-right"></div>
         
-      </section>
-    </section>
-    <!--
-              Simple booking Stay in touch with our dog
-    walkers through the chat interface. This makes it easy to discuss
-    arrangements and make bookings. Once the walk has been completed you can
-    rate your walker and book again all through the chat.
+      </div>
+      
+    </div>
+    
 
-     -->
+   
+
     <!--
     <div class="attribution">
       Challenge by
